@@ -1,0 +1,16 @@
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: black;
+}
+
+.Footer div{
+    color: white;
+}
+
+
+.FooterIcon{
+    display: flex;
+    color: white;
+}

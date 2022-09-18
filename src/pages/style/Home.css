@@ -1,0 +1,101 @@
+.MainImg1{
+    margin-right: 50px;
+}
+
+
+.AboutUs{
+    color: red;
+}
+
+
+.AboutUsDes{
+    font-size: large;
+    gap: 10px;
+    margin-top: 10px;
+    line-height: 200%;
+}
+
+.AboutUsDes1{
+    color: red;
+}
+
+.AboutUsDes2{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    font-size: large;
+    row-gap: 20px;
+    gap: 180px;
+}
+.AboutUsDes2 li{
+    font-size: larger;
+    row-gap: 30px;
+}
+
+.Product{
+    color: red;
+}
+.OurService{
+    display: flex;
+
+}
+
+.ContactUs{
+    color: red;
+}
+
+.ContactInput{
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 20px;
+    margin-left: 35%;
+    font-size: large;
+    row-gap: 30px;
+
+    
+}
+
+.ContactInput input{
+    width: 500px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+
+.ContactInputBtn button{
+background-color: red;
+height: 50px;
+width: 200px;
+font-size: large;
+margin-top: 30px;
+border-radius: 15px;
+}
+
+.Atc{
+    color: red;
+}
+
+.AtcPic{
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.AboutMis{
+    color: red;
+}
+
+.OurService{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.OurService div{
+    line-height: 250%;
+}
